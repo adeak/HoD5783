@@ -45,7 +45,7 @@ def day2():
     if len(suspects) != 1:
         raise ValueError(f'Invalid amount of suspects found. Suspects by phone number: {suspects}')
 
-    return next(iter(suspects.keys()))
+    return next(iter(suspects))
 
 
 if __name__ == "__main__":
