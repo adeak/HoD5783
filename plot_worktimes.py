@@ -39,7 +39,7 @@ def plot_times():
     ax.set_xlabel('day')
     ax.set_ylabel('minutes')
     ax.xaxis.set_major_locator(IndexLocator(base=1, offset=0))
-    ax.set_xlim(0.5, 25.5)
+    ax.set_xlim(0.5, 8.5)
     fig.tight_layout()
 
     return fig
